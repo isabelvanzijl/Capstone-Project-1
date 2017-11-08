@@ -1,13 +1,25 @@
-Trainer,Year,Description,Source
-STEVEN M. ASMUSSEN,2015,fined for violating New York State Gaming Commission drug rules and regulations,https://www.nytimes.com/2015/11/24/sports/steve-asmussen-fined-for-violating-horse-racings-drug-rules.html?rref=collection%2Ftimestopic%2FDrugs%20in%20Horse%20Racing&action=click&contentCollection=timestopics&region=stream&module=stream_unit&version=latest&contentPlacement=4&pgtype=collection
-ANTONIO C. AVILA,2015,suspended and fined for doping a horse,http://www.sandiegouniontribune.com/sports/horse-racing/sdut-avila-doping-fine-suspension-2015feb27-story.html
-MICHAEL S. WEINER,2017,fined for racing four horses at Monticello Raceway doped with mitragynine,http://www.harnesslink.com/News/Trainer-suspended-for-mitragynine
-BOB BAFFERT,2013,unproven but misconduct seems likely,http://www.nytimes.com/2013/11/23/sports/despite-the-evidence-trainers-deny-a-doping-problem.html
-LUIS PENA,2015,"banned for three years and fined for more than 1,700 separate violations",https://www.bloodhorse.com/horse-racing/articles/107768/case-against-pena-results-in-three-year-ban
-RICHARD E. DUTROW JR,2011,"license suspension for a history of rules violations, including a positive test on a horse and having three syringes loaded with a banned substance",http://www.drf.com/news/dutrow-begin-suspension-thursday
-JOSEPH R. CARRUBBA,2016,"suspended, received bans for cobalt infractions",https://www.horsetalk.co.nz/2016/04/08/six-new-york-harness-trainers-banned-cobalt/
-SEAN M. CAMPBELL,2016,"suspended, received bans for cobalt infractions",https://www.horsetalk.co.nz/2016/04/08/six-new-york-harness-trainers-banned-cobalt/
-MEGAN M. GILMOUR,2016,"suspended, received bans for cobalt infractions",https://www.horsetalk.co.nz/2016/04/08/six-new-york-harness-trainers-banned-cobalt/
-DAWN M. DEVAUX,2016,"suspended, received bans for cobalt infractions",https://www.horsetalk.co.nz/2016/04/08/six-new-york-harness-trainers-banned-cobalt/
-JEFF MULLINS,2009,barred from racetracks for six months,http://www.nytimes.com/2009/10/30/sports/30horse.html
-WILLIAM I. MOTT,2015,fine and suspension for overages of both flunixin and furosemide,https://www.paulickreport.com/news/ray-s-paddock/new-yorks-drug-testing-program-has-its-own-style/
+Trainer;Year of Action;Action Description;Source
+STEVEN M. ASMUSSEN;2015;fined for violating New York State Gaming Commission drug rules and regulations;https://www.nytimes.com/2015/11/24/sports/steve-asmussen-fined-for-violating-horse-racings-drug-rules.html?rref=collection%2Ftimestopic%2FDrugs%20in%20Horse%20Racing&action=click&contentCollection=timestopics&region=stream&module=stream_unit&version=latest&contentPlacement=4&pgtype=collection
+ANTONIO C. AVILA;2015;suspended and fined for doping a horse;http://www.sandiegouniontribune.com/sports/horse-racing/sdut-avila-doping-fine-suspension-2015feb27-story.html
+MICHAEL S. WEINER;2017;fined for racing four horses at Monticello Raceway doped with mitragynine;http://www.harnesslink.com/News/Trainer-suspended-for-mitragynine
+BOB BAFFERT;2013;unproven but misconduct seems likely;http://www.nytimes.com/2013/11/23/sports/despite-the-evidence-trainers-deny-a-doping-problem.html
+LUIS PENA;2015;banned for three years and fined for more than 1,700 separate violations;https://www.bloodhorse.com/horse-racing/articles/107768/case-against-pena-results-in-three-year-ban
+RICHARD E. DUTROW JR;2011;license suspension for a history of rules violations, including a positive test on a horse and having three syringes loaded with a banned substance;http://www.drf.com/news/dutrow-begin-suspension-thursday
+JOSEPH R. CARRUBBA;2016;suspended, received bans for cobalt infractions;https://www.horsetalk.co.nz/2016/04/08/six-new-york-harness-trainers-banned-cobalt/
+SEAN M. CAMPBELL;2016;suspended, received bans for cobalt infractions;https://www.horsetalk.co.nz/2016/04/08/six-new-york-harness-trainers-banned-cobalt/
+MEGAN M. GILMOUR;2016;suspended, received bans for cobalt infractions;https://www.horsetalk.co.nz/2016/04/08/six-new-york-harness-trainers-banned-cobalt/
+DAWN M. DEVAUX;2016;suspended, received bans for cobalt infractions;https://www.horsetalk.co.nz/2016/04/08/six-new-york-harness-trainers-banned-cobalt/
+JEFF MULLINS;2009;barred from racetracks for six months;http://www.nytimes.com/2009/10/30/sports/30horse.html
+WILLIAM I. MOTT;2015;fine and suspension for overages of both flunixin and furosemide;https://www.paulickreport.com/news/ray-s-paddock/new-yorks-drug-testing-program-has-its-own-style/
+RODOLFO (RUDY) RODRIGUEZ;2015;fine and suspension, horses tested positive for flunixin, horses were Majestic Market and Vee's Accolade;https://www.bloodhorse.com/horse-racing/articles/108903/rodriguez-suspended-fined-for-positives
+MARC (JOE) J. SHARP;2017;fine for a positive finding of methamphetamine;https://rmtcnet.com/navarro-appealing-post-race-cocaine-positive-monmouth-daily-racing-form-102017/#
+ROBERTINO DIODORO;2017;suspension, three horses tested positive for a tranquilizer listed as a Class 3 drug;https://rmtcnet.com/robertino-diodoro-begins-serving-suspension-medication-positives-daily-racing-form-091817/
+PATRICIA FARRO;2017;fined and suspended for 15 days after a horse tested positive for clenbuterol;https://rmtcnet.com/farro-penaloza-serving-parx-suspensions-clenbuterol-violations-paulick-report-22817/
+JAMIE J. NESS;2017;suspension for clenbuterol positives;https://rmtcnet.com/ness-serving-100-day-suspension-clenbuterol-positives-daily-racing-form-22217/
+STEPHEN MURCHISON;2016;suspended and fined for giving excessive levels of cobalt;https://rmtcnet.com/seven-maine-harness-racing-trainers-suspended-fined-portland-press-herald-6316/
+MIKE J. MAKER;2016;suspended for a drug positive test at Turfway;https://rmtcnet.com/maker-suspended-for-40-daysespn-41416/
+RONALD J. BURKE;2016;horses return positive for Glaucine, hit with drug violation;https://rmtcnet.com/burke-julie-miller-hit-with-drug-violations-harness-link-21216/
+JULIE E. MILLER;2016;horses return positive for Glaucine, hit with drug violation;https://rmtcnet.com/burke-julie-miller-hit-with-drug-violations-harness-link-21216/
+GARY C. CONTESSA;2014;incident occurred in 2014, suspension served in 2016, horse had 2.3 nanograms of cocaine in system;https://rmtcnet.com/trainer-contessa-serving-seven-day-suspensiondaily-racing-form-2816/
+ROY SEDLACEK;2016;5 year ban in New York after evidence of two horses administered an opioid analgesic drug nearly as potent as morphine;https://rmtcnet.com/ny-bans-trainer-sedlacek-for-five-years-the-blood-horse-12616/
+ALAN E. GOLDBERG;2015;suspension, Pool Winner was over permitted threshold level for phenylbutazone;https://rmtcnet.com/trainer-goldberg-gets-15-day-suspension-daily-racing-form-71415/
