@@ -1,4 +1,4 @@
-# Capstone-Project-1 - IN PROGRESS
+# Capstone Project 1 - IN PROGRESS
 
 ## Final Report:
 https://docs.google.com/document/d/13T1fpkFmUUIyhQPvhc5sfjtQHuFFy2Yyp_3YAY52UPI/edit?usp=sharing
