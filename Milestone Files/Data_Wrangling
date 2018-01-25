@@ -1,0 +1,55 @@
+Data Wrangling
+
+Create a short document (1-2 pages) in your github describing the data wrangling steps that you undertook to clean your 
+capstone project data set. What kind of cleaning steps did you perform? How did you deal with missing values, if any? Were 
+there outliers, and how did you  decide to handle them? 
+
+CODE: Create_Merged_Dataset.ipynb
+
+For this project, I'll be analyzing data from two datasets. The first is the 'Equine Death and Breakdown' dataset provided 
+by the New York State Gaming Commission. The second is a dataset I compiled myself through my own research on various 
+trainers whether they have a history of drugging their horses. I created this dataset by researching which trainers have 
+been suspended or fined after one or more of their horses had been drug tested and found with traces of drugs over the legal 
+limit (article sources provided in dataset). The final dataset I will use for my analysis is a merge (left join) of both 
+these datasets.
+  
+I started by cleaning the 'Equine Death and Breakdown' dataset. The first issue that stood out was that there were both null 
+values (NaN) and blanks (' ') in the dataset. In order to standardize cells with missing information, I replaced blank cells 
+with nulls using the .replace() method. I preferred filling these cells with null values so I could see how many entries 
+were missing (with the ' ', the info() method showed that columns were fully populated). 
+
+Next, I wanted to consolidate categories in some of the columns and change the column datatype to type 'category'. I started 
+by inspecting the 'Incident Type' column. I immediately saw that there were two categories that essentially were the same 
+('ACCIDENT - ON TRACK' and 'ON-TRACK ACCIDENT'). I changed the rows categorized as the latter to have the 'ACCIDENT - ON 
+TRACK' description and then changed the column to type category. I also checked the categories in the 'Track', 'Racing Type 
+Description', and 'Division' columns. They all were populated with good, clean categories, so I converted the datatype of 
+those columns to type 'category'. Next, I checked the values within the 'Death or Injury' column. There were a few 
+adjustments I made to the categories in the 'Death or Injury' column. To start, there were three categories for death: 
+'Death', 'Equine Death', 'death'. The same was true for categories related to lameness ('Lameness' and 'Lame no death') and 
+related to injury ('Equine Injury' and 'Injury'). We can probably assume that horses marked as lame didn't die at the time 
+of the incident and we can probably assume that 'Injury' is in reference to the horse's injury and not the jockey's injury. 
+I consolidated these corresponding categories. There were a lot of null values in this column, so I checked to see how some 
+of these descriptions matched up with categories in the 'Incident Type' column since they seemed similar and I could 
+possibly populate some cells based on descriptions in that column. What I found was that there were a lot of odd pairs of 
+'Incident Type' and 'Death or Injury', making it difficult to come to any conclusions about how to categorize some of the 
+null values (and even the non-null values). I essentially decided to leave the 'Death or Injury' column as is and mostly 
+depend on the 'Incident Type' column for my analysis since it's fully populated. I did convert the column to type 'category' 
+though incase I do end up using the data. After converting all the necessary categorical columns, I inspected whether there 
+were other columns that should be changed to a different datatype. There's an 'Incident Date' column in the dataset, so I 
+went ahead and converted that column to type datetime. This will make it easier to use in the analysis and to study trends 
+over time. This concluded the changing of datatypes in my dataset.
+
+In the dataset, I was provided with a 'Weather Conditions' column. There are 798 unique descriptions though, which makes 
+sense considering that many of the descriptions list the temperature and the weather condition (sometimes more than 1 
+weather condition). Since there is overlap between weather conditions, I decided that the best way to test these conditions 
+would be to create boolean weather columns based on the weather condition descriptions. I created eleven new columns for 
+some of the more popular weather conditions. The new columns are 'Cloudy', 'Sunny', 'Clear', 'Overcast', 'Rain', 'Snow', 
+'Wind', 'Thunder Storms', 'Hot', 'Humid', and 'Warm'. I defined a function for each of these general descriptions and then 
+used .apply() to populate the corresponding columns with True or False based on whether the 'Weather Conditions' column 
+contained those key words. This concluded the cleaning of the main dataset.
+  
+For the second dataset, I mostly just had to check that the contents were imported correctly since I created the csv file 
+myself. After confirming that it looked the way I wanted it to, I went ahead and merged the two datasets using the merge() 
+function. Since I wanted to do the equivalent of a left join, I had to specify 'how' to equal 'left' and then joined the two 
+datasets on the trainer names. After merging the two datasets, I exported the dataset as a csv file titled 
+'Equine_Breakdown_Death_Doping.csv'. The file is in my Capstone-Project-1 repository.
