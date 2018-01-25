@@ -1,5 +1,3 @@
-# Capstone Project 1
-
 # Studying and Predicting Doping Related Incidents in New York State’s Horse Racing Industry
 
 ## Final Report:
